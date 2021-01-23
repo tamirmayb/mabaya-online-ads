@@ -9,6 +9,14 @@ Please add this parameter to the server's vm options:
 -Djdk.tls.client.protocols=TLSv1.2
 ```
 
+Run 
+```java
+mvn clean install
+```
+
+Start the application from MabayaAdsApp and wait the server to start.
+http://localhost:8080/mabaya/api/swagger-ui.html# 
+
 The application uses Swagger-ui to visualize the apis, feel free to use it as needed.
 
 ### Features:
